@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="stylesheet" href="../styles/estilo.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("section").hide()
+  $("#Ppal").show()
+  $("#opofppal").hide()
+  $("#menuopof").click(function(){
+    $("#Ppal").hide()
+    $("#opofppal").show();
+    $("opof2").hide();
+    $("opof3").hide();
+    $("opof4").hide();
+    $("opof5").hide();
+    $("opof6").hide();
+    $("opof1").show();
+    $("#libreppal").hide();
+  })
+    $("#menulibre").click(function(){
+    $("#Ppal").hide()
+    $("#opofppal").hide();
+    $("opof2").hide();
+    $("opof3").hide();
+    $("opof4").hide();
+    $("opof5").hide();
+    $("opof6").hide();
+    $("opof1").show();
+    $("#libreppal").show();
+    $("libre1").show();
+    $("opof6").hide();
+  })
+    $("#opof2").click(function(){
+    $("#Ppal").hide()
+    $("#opofppal").show();
+    $("opof1").hide();
+    $("opof3").hide();
+    $("opof4").hide();
+    $("opof2").show();
+    $("opof5").hide();
+    $("opof6").hide();
+    })
+     $("#opof3").click(function(){
+    $("#Ppal").hide()
+    $("#opofppal").show();
+    $("opof1").hide();
+    $("opof3").show();
+    $("opof4").hide();
+    $("opof2").hide();
+    $("opof5").hide();
+    $("opof6").hide();
+    })
+     $("#opof4").click(function(){
+    $("#Ppal").hide()
+    $("#opofppal").show();
+    $("opof1").hide();
+    $("opof3").hide();
+    $("opof4").show();
+    $("opof2").hide();
+    $("opof5").hide();
+    $("opof6").hide();
+
+    })
+    $("#opof5").click(function(){
+    $("#Ppal").hide()
+    $("#opofppal").show();
+    $("opof1").hide();
+    $("opof3").hide();
+    $("opof4").hide();
+    $("opof2").hide();
+    $("opof5").show();
+    $("opof6").hide();
+    }) 
+    $("#opof6").click(function(){
+    $("#Ppal").hide()
+    $("#opofppal").show();
+    $("opof1").hide();
+    $("opof3").hide();
+    $("opof4").hide();
+    $("opof2").hide();
+    $("opof5").hide();
+    $("opof6").show();
+    })    
+    $("#libre2").click(function(){
+    $("#Ppal").hide()
+    $("#libreppal").show();
+    $("libre1").hide();
+    $("libre3").hide();
+    $("libre4").hide();
+    $("libre2").show();
+    $("libre5").hide();
+    $("libre6").hide();
+    })
+     $("#libre3").click(function(){
+    $("#Ppal").hide()
+    $("#libreppal").show();
+    $("libre1").hide();
+    $("libre2").hide();
+    $("libre4").hide();
+    $("libre3").show();
+    $("libre5").hide();
+    $("libre6").hide();
+    })
+     $("#libre4").click(function(){
+    $("#Ppal").hide()
+    $("#libreppal").show();
+    $("libre1").hide();
+    $("libre2").hide();
+    $("libre3").hide();
+    $("libre4").show();
+    $("libre5").hide();
+    $("libre6").hide();
+    })
+     $("#libre5").click(function(){
+    $("#Ppal").hide()
+    $("#libreppal").show();
+    $("libre1").hide();
+    $("libre2").hide();
+    $("libre3").hide();
+    $("libre4").hide();
+    $("libre5").show();
+    $("libre6").hide();
+    })
+     $("#libre6").click(function(){
+    $("#Ppal").hide()
+    $("#libreppal").show();
+    $("libre1").hide();
+    $("libre2").hide();
+    $("libre3").hide();
+    $("libre4").hide();
+    $("libre5").hide();
+    $("libre6").show();
+    })
+  $("#retorno").click(function(){
+  		$("#Ppal").show();
+  		$("opof1").hide();
+    	$("opof3").hide();
+    	$("opof4").hide();
+   	  $("opof2").hide();
+    	$("opof5").hide();
+      $("opof6").hide();
+  		$("#opofppal").hide();
+  		$("#libreppal").hide();
+  		$("#libre").hide();
+  		$("libre1").hide();
+   	$("libre2").hide();
+    	$("libre3").hide();
+    	$("libre4").hide();
+      $("libre5").hide();
+      $("libre6").hide();
+
+  })
+$("#volver").click(function(){
+  		$("#Ppal").show();
+      $("opof1").hide();
+      $("opof3").hide();
+      $("opof4").hide();
+      $("opof2").hide();
+      $("opof5").hide();
+      $("opof6").hide();
+      $("#opofppal").hide();
+      $("#libreppal").hide();
+      $("#libre").hide();
+      $("libre1").hide();
+    $("libre2").hide();
+      $("libre3").hide();
+      $("libre4").hide();
+      $("libre5").hide();
+      $("libre6").hide();
+
+  })
+  })
+</script>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<section id="Ppal">
+   <h1>Paquetes ofimáticos</h1>
+    <p>Un paquete de oficina o paquete ofimático, una suite de oficina o suite ofimática, una serie de oficina o serie ofimática, 
+    es un conjunto de programas informáticos relacionados con las operaciones básicas de oficina, como la redacción de cartas e informes, 
+    la organización de citas o la contabilización de facturas. Una suite ofimática suele incluir un procesador de textos, una hoja de cálculo, 
+    un programa de presentación y una herramienta de dibujo. También puede haber un programa de manipulación de datos, un lector de correo electrónico, 
+    un calendario y una agenda. Todos ellos se distribuyen juntos como un único producto.</p>
+    <p>En esta guía mostraremos como se instalan dos paquetes ofimáticos de software libre. Estos serán <a href="#menuopof">OpenOffice</a>
+    en el sistema operativo Windows 10 y <a href="#menulibre">LibreOffice</a> en sistema operativo Ubuntu, aunque ambos son instalables en Ubuntu y Windows,
+     respectivamente. Si por el contrario lo que quieres ver es la comparativa entre estos dos software, puedes verlo desde <a href="#comparativa">aquí</a>.</p>
+    </p>
+   <div class="container">
+  		 <img src="../OpenOffice/orb.png" alt="Avatar" class="image" style="width:220px">
+ 		 <div class="middleopen">
+
+    		<div class="text" id="menuopof">OpenOffice</div>
+ 		 </div>
+	</div>
+	<div class="container">
+  		 <img src="../LibreOffice/LibreOffice.png" alt="Avatar" class="image" style="width:270px">
+ 		 <div class="middlelibre">
+    		<div class="text"id="menulibre">LibreOffice</div>
+ 		 </div>
+	</div>
+	<h1 id="comparativa">OpenOffice vs LibreOffice</h1>
+	<h3>Interfaces de usuario</h3>
+	<p>Ambas suites poseen su propio lanzador, que nos muestra los distintos programas que ofrece.
+	Sin embargo, el lanzador de LibreOffice está más trabajado y modernizado, lo que lo hace más intuitivo.</p>
+	<p>Además, el lanzador de LibreOffice es mucho más personalizable.</p>
+	<h3>Programas y características integradas</h3>
+	<p>A grandes rasgos, ambas suites contienen las mismas herramientas, a excepción de las plantillas que ofrece 
+	LibreOffice. OpenOffice también nos las ofrece, pero no se encuentran integradas en el propio programa</p>
+	<h3>Formatos compatibles</h3>
+	<p>En cuanto a compatibilidad, LibreOffice también se encuentra un paso por delante, ya que escapaz de abrir mucho
+	mejor los documentos sin alterarlos, y guardarlos de forma que programas Microsoft Office también pueda leer</p>
+	<h3>Consumo y rendimiento general</h3>
+	<p>Aquí se encuentra la primera victoria de OpenOffice, ya que su consumo no llega ni a la décima parte de OpenOffice, esto se debe
+	 a que este programa no se carga completamente en memoria. Esto conseguirá que el programa funcione 
+	 mejor, especialmente, en ordenadores antiguos</p>
+	 <h3>Comunidad</h3>
+	<p>LibreOffice también tiene una comunidad mucho más amable con su programa que OpenOffice, esto se debe al poco cariño que
+	se le tiene a Oracle, empresa propietaria de OpenOffice. Esto se traduce en menos miembros dispuestos a usar su software, y, por tanto, 
+  menos código que ayude al programa a funcionar mejor.</p>
+	<h3>CONCLUSIÓN</h3>
+	<p>Hemos visto que LibreOffice es un software que está mucho más modernizado que OpenOffice, esto nos supone muchas ventajas a la hora
+	de solucionar bugs, buscar ayuda de cualquier tipo, etc. Sin embargo, si esta no nos importa y necesitamos un software sencillo, que 
+	consuma pocos recursos de un ordenador, OpenOffice es una muy buena opción.</p>
+</section>
+<section id="opofppal">
+	<link rel="stylesheet" href="../styles/estilo2.css"/>
+	<h5 id="retorno">←VOLVER</a></h5>
+	<h2>OpenOffice</h2>
+	<div class="container">
+	<ul class="slider">
+    	<li id="opof1"><img src="../OpenOffice/OpOf1.gif"/></li>
+    	<li id="opof2"><img src="../OpenOffice/OpOf2.gif"/></li>
+    	<li id="opof3"><img src="../OpenOffice/OpOf3.gif"/></li>
+    	<li id="opof4"><img src="../OpenOffice/OpOf4.gif"/></li>
+    	<li id="opof5"><img src="../OpenOffice/OpOf5.gif"/></li>
+      <li id="opof6"><img src="../OpenOffice/OpOf6.gif"/></li>
+  	</ul>
+  	</div>
+	<nav>
+    <ul class="menu">
+        <li><a href="#opof1">1</a></li>
+        <li><a href="#opof2">2</a></li>
+        <li><a href="#opof3">3</a></li>
+        <li><a href="#opof4">4</a></li>
+        <li><a href="#opof5">5</a></li>
+        <li><a href="#opof6">6</a></li>
+ 	 </ul>
+	</nav>
+</section>
+<section id="libreppal">
+	<link rel="stylesheet" href="../styles/estilo2.css"/>
+	<h5 id="volver">←VOLVER</a></h5>
+	<h2>LibreOffice</h2>
+	<div class="container">
+	<ul class="slider">
+    	<li id="libre1"><img src="../LibreOffice/LO1.gif"/></li>
+    	<li id="libre2"><img src="../LibreOffice/LO2.gif"/></li>
+    	<li id="libre3"><img src="../LibreOffice/LO3.gif"/></li>
+    	<li id="libre4"><img src="../LibreOffice/LO4.gif"/></li>
+      <li id="libre5"><img src="../LibreOffice/LO5.gif"/></li>
+      <li id="libre6"><img src="../LibreOffice/LO6.gif"/></li>
+  	</ul>
+  	</div>
+	<nav>
+    <ul class="menu">
+        <li><a href="#libre1">1</a></li>
+        <li><a href="#libre2">2</a></li>
+        <li><a href="#libre3">3</a></li>
+        <li><a href="#libre4">4</a></li>
+        <li><a href="#libre5">5</a></li>
+        <li><a href="#libre6">6</a></li>
+ 	 </ul>
+	</nav>
+	
+</section>
+</body>
+
+</html>

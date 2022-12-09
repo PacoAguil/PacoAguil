@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="stylesheet" href="../styles/estilo.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("section").hide()
+  $("#Ppal").show()
+  $("#opppal").hide()
+  $("#menuop").click(function(){
+    $("#Ppal").hide()
+    $("#opppal").show();
+    $("op2").hide();
+    $("op3").hide();
+    $("op4").hide();
+    $("op5").hide();
+    $("op6").hide();
+    $("op1").show();
+    $("#blppal").hide();
+  })
+    $("#menubl").click(function(){
+    $("#Ppal").hide()
+    $("#opppal").hide();
+    $("op2").hide();
+    $("op3").hide();
+    $("op4").hide();
+    $("op5").hide();
+    $("op6").hide();
+    $("bl1").show();
+    $("#blppal").show();
+  })
+    $("#op2").click(function(){
+    $("#Ppal").hide()
+    $("#opppal").show();
+    $("op1").hide();
+    $("op3").hide();
+    $("op4").hide();
+    $("op2").show();
+    $("op5").hide();
+    })
+     $("#op3").click(function(){
+    $("#Ppal").hide()
+    $("#opppal").show();
+    $("op1").hide();
+    $("op3").show();
+    $("op4").hide();
+    $("op2").hide();
+    $("op5").hide();
+    })
+     $("#op4").click(function(){
+    $("#Ppal").hide()
+    $("#opppal").show();
+    $("op1").hide();
+    $("op3").hide();
+    $("op4").show();
+    $("op2").hide();
+    $("op5").hide();
+    })
+    $("#op5").click(function(){
+    $("#Ppal").hide()
+    $("#oppal").show();
+    $("op1").hide();
+    $("op3").hide();
+    $("op4").hide();
+    $("op2").hide();
+    $("op5").show();
+    })    
+    $("#bl2").click(function(){
+    $("#Ppal").hide()
+    $("#blppal").show();
+    $("bl1").hide();
+    $("bl3").hide();
+    $("bl4").hide();
+    $("bl2").show();
+    $("bl4").hide();
+    $("bl4").hide();
+    })
+     $("#bl3").click(function(){
+    $("#Ppal").hide()
+    $("#blppal").show();
+    $("bl1").hide();
+    $("bl2").hide();
+    $("bl4").hide();
+    $("bl3").show();
+    $("bl4").hide();
+    $("bl4").hide();
+    })
+     $("#bl5").click(function(){
+    $("#Ppal").hide()
+    $("#blppal").show();
+    $("bl1").hide();
+    $("bl2").hide();
+    $("bl3").hide();
+    $("bl4").hide();
+    $("bl5").show();
+    $("bl6").hide();
+    })
+    $("#bl6").click(function(){
+    $("#Ppal").hide()
+    $("#blppal").show();
+    $("bl1").hide();
+    $("bl2").hide();
+    $("bl3").hide();
+    $("bl4").hide();
+    $("bl5").hide();
+    $("bl6").show();
+    })
+    $("#bl4").click(function(){
+    $("#Ppal").hide()
+    $("#blppal").show();
+    $("bl1").hide();
+    $("bl2").hide();
+    $("bl3").hide();
+    $("bl4").show();
+    $("bl5").hide();
+    $("bl6").hide();
+    })
+  $("#retorno").click(function(){
+      $("#Ppal").show();
+      $("op1").hide();
+      $("op3").hide();
+      $("op4").hide();
+    $("op2").hide();
+      $("op5").hide();
+      $("#opppal").hide();
+      $("#blppal").hide();
+      $("#clamav").hide();
+      $("bl1").hide();
+      $("bl2").hide();
+      $("bl3").hide();
+      $("bl4").hide();
+      $("bl4").hide();
+      $("bl4").hide();
+  })
+$("#volver").click(function(){
+      $("#Ppal").show();
+      $("op1").hide();
+      $("op3").hide();
+      $("op4").hide();
+    $("op2").hide();
+      $("op5").hide();
+      $("#opppal").hide();
+      $("#blppal").hide();
+      $("#clamav").hide();
+      $("bl1").hide();
+      $("bl2").hide();
+      $("bl3").hide();
+      $("bl4").hide();
+      $("bl4").hide();
+      $("bl4").hide();
+  }) 
+  })
+</script>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<section id="Ppal">
+   <h1>Aplicaciones portables</h1>
+   <h3>¿Por qué usarlas? Comparación de aplicación y aplicación portable</h3>
+    <p>Una buena solución para no tener que ocupar más espacio de almacenamiento en el ordenador, es poder ejecutar aplicaciones portables,
+     las cuales podemos llevar en un pendrive de un lugar a otro. Estas aplicaciones no necesitan ser instaladas para ser ejecutadas.
+     Además, al usar un software portátil no dejas ningún archivo de configuración ni otros datos en el computador.</p>
+     <p>Este tipo de aplicaciones, como por ejemplo un navegador portable como Opera, se ejecutarán al igual que una aplicación pero no dejarán rastro de lo que hagamos 
+      en el dispositivo donde se usen. El navegador no guardará historial de búsquedas ni cookies, pero seguirá funcionando igual que su versión instalable. Esto puede ser útil 
+    si trabajamos en diferentes equipos públicos por ejemplo.</p>
+    <p>En esta guía mostraremos como se usan <a href="#menuop">Opera Portable</a> en Windows y <a href="#menubl">Blender</a> en Ubuntu. </p>
+    </p>
+   <div class="container">
+       <img src="../Opera/Opera.png" alt="Avatar" class="image" style="width:220px">
+     <div class="middleop">
+
+        <div class="text" id="menuop">Opera Portable</div>
+     </div>
+  </div>
+  <div class="container">
+       <img src="../Blender/blend.jpeg" alt="Avatar" class="image" style="width:270px">
+     <div class="middlebl">
+        <div class="text"id="menubl">Blender</div>
+     </div>
+  </div>
+</section>
+<section id="opppal">
+  <link rel="stylesheet" href="../styles/estilo2.css"/>
+  <h5 id="retorno">←VOLVER</a></h5>
+  <h2>Opera portable</h2>
+  <div class="container">
+    <ul class="slider">
+        <li id="op1"><img src="../Opera/Op1.gif"/></li>
+        <li id="op2"><img src="../Opera/Op2.gif"/></li>
+        <li id="op3"><img src="../Opera/Op3.gif"/></li>
+        <li id="op4"><img src="../Opera/Op4.gif"/></li>
+      </ul>
+    </div>
+  <nav>
+    <ul class="menu">
+        <li><a href="#op1">1</a></li>
+        <li><a href="#op2">2</a></li>
+        <li><a href="#op3">3</a></li>
+        <li><a href="#op4">4</a></li>
+   </ul>
+  </nav>
+</section>
+<section id="blppal">
+  <link rel="stylesheet" href="../styles/estilo2.css"/>
+  <h5 id="volver">←VOLVER</a></h5>
+  <h2>Blender</h2>
+  <div class="container">
+  <ul class="slider">
+      <li id="bl1"><img src="../Blender/Bl1.gif"/></li>
+      <li id="bl2"><img src="../Blender/Bl2.gif"/></li>
+      <li id="bl3"><img src="../Blender/Bl3.gif"/></li>
+      <li id="bl4"><img src="../Blender/Bl4.gif"/></li>
+      <li id="bl5"><img src="../Blender/Bl5.gif"/></li>
+      <li id="bl6"><img src="../Blender/Bl6.gif"/></li>
+    </ul>
+    </div>
+  <nav>
+    <ul class="menu">
+        <li><a href="#bl1">1</a></li>
+        <li><a href="#bl2">2</a></li>
+        <li><a href="#bl3">3</a></li>
+        <li><a href="#bl4">4</a></li>
+        <li><a href="#bl5">5</a></li>
+        <li><a href="#bl6">6</a></li>
+   </ul>
+  </nav>
+  
+</section>
+</body>
+
+</html>

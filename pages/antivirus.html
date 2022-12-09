@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="stylesheet" href="../styles/estilo.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("section").hide()
+  $("#Ppal").show()
+  $("#avastppal").hide()
+  $("#menuavast").click(function(){
+    $("#Ppal").hide()
+    $("#avastppal").show();
+    $("av2").hide();
+    $("av3").hide();
+    $("av4").hide();
+    $("av5").hide();
+    $("av6").hide();
+    $("av1").show();
+    $("#clamppal").hide();
+  })
+    $("#menuclam").click(function(){
+    $("#Ppal").hide()
+    $("#avastppal").hide();
+    $("av2").hide();
+    $("av3").hide();
+    $("av4").hide();
+    $("av5").hide();
+    $("av6").hide();
+    $("av1").show();
+    $("#clamppal").show();
+  })
+    $("#av2").click(function(){
+    $("#Ppal").hide()
+    $("#avastppal").show();
+    $("av1").hide();
+    $("av3").hide();
+    $("av4").hide();
+    $("av2").show();
+    $("av5").hide();
+    })
+     $("#av3").click(function(){
+    $("#Ppal").hide()
+    $("#avastppal").show();
+    $("av1").hide();
+    $("av3").show();
+    $("av4").hide();
+    $("av2").hide();
+    $("av5").hide();
+    })
+     $("#av4").click(function(){
+    $("#Ppal").hide()
+    $("#avastppal").show();
+    $("av1").hide();
+    $("av3").hide();
+    $("av4").show();
+    $("av2").hide();
+    $("av5").hide();
+    })
+    $("#av5").click(function(){
+    $("#Ppal").hide()
+    $("#avastppal").show();
+    $("av1").hide();
+    $("av3").hide();
+    $("av4").hide();
+    $("av2").hide();
+    $("av5").show();
+    })    
+    $("#cl2").click(function(){
+    $("#Ppal").hide()
+    $("#clamppal").show();
+    $("cl1").hide();
+    $("cl3").hide();
+    $("cl4").hide();
+    $("cl2").show();
+    })
+     $("#cl3").click(function(){
+    $("#Ppal").hide()
+    $("#clamppal").show();
+    $("cl1").hide();
+    $("cl2").hide();
+    $("cl4").hide();
+    $("cl3").show();
+    })
+     $("#cl4").click(function(){
+    $("#Ppal").hide()
+    $("#clamppal").show();
+    $("cl1").hide();
+    $("cl2").hide();
+    $("cl3").hide();
+    $("cl4").show();
+    })
+  $("#retorno").click(function(){
+  		$("#Ppal").show();
+  		$("av1").hide();
+    	$("av3").hide();
+    	$("av4").hide();
+   	$("av2").hide();
+    	$("av5").hide();
+  		$("#avastppal").hide();
+  		$("#clamppal").hide();
+  		$("#clamav").hide();
+  		$("cl1").hide();
+   	$("cl2").hide();
+    	$("cl3").hide();
+    	$("cl4").hide();
+  })
+$("#volver").click(function(){
+  		$("#Ppal").show();
+  		$("av1").hide();
+    	$("av3").hide();
+    	$("av4").hide();
+   	$("av2").hide();
+    	$("av5").hide();
+  		$("#avastppal").hide();
+  		$("#clamppal").hide();
+  		$("#clamav").hide();
+  		$("cl1").hide();
+   	$("cl2").hide();
+    	$("cl3").hide();
+    	$("cl4").hide();
+  }) 
+  })
+</script>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<section id="Ppal">
+   <h1>Software Antivirus</h1>
+    <p>Los antivirus son programas cuyo objetivo es detectar y eliminar virus informáticos. Con el paso del tiempo, 
+    los antivirus han evolucionado hacia programas más avanzados que además de buscar y detectar virus informáticos consiguen bloquearlos,
+     desinfectar archivos y prevenir una infección de estos. Actualmente son capaces de reconocer otros tipos de malware, como spyware, gusanos, troyanos, rootkits y pseudovirus. </p>
+    <p>Para esta guía de instalación nos centraremos en <a href="#menuavast">Avast</a> para Windows y <a href="#menuclam">ClamAV</a> para Ubuntu. Si por el contrario lo que quieres ver es la comparativa entre estos dos software, puedes acceder desde <a href="#comparativa">aquí</a>.</p>
+    </p>
+   <div class="container">
+  		 <img src="https://static3.avast.com/web/i/v2/components/logos/avast-logos/seo/logo-avast-224x224px.png" alt="Avatar" class="image" style="width:220px">
+ 		 <div class="middleav">
+
+    		<div class="text" id="menuavast">Avast</div>
+ 		 </div>
+	</div>
+	<div class="container">
+  		 <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/ClamAV_Logo.png" alt="Avatar" class="image" style="width:270px">
+ 		 <div class="middlecl">
+    		<div class="text"id="menuclam">ClamAV</div>
+ 		 </div>
+	</div>
+	<h1 id="comparativa">Avast vs ClamAV</h1>
+	<h3>Características principales</h3>
+	<h5>Avast</h5>
+	<p>Antivirus, Malware, AntiSpyware y Ransomware, protección online, VPN, gestor de contraseñas.</p>
+	<h5>ClamAV</h5>
+	<p>Escáner en línea de comandos, base de datos de virus actualizada a diario.</p>
+	<h3>Pros y contras</h3>
+	<h5>Avast</h5>
+	<p>Fácil de usar, efectivo, y con muchas características en su versión de pago.</p>
+	<p>Su única pega podría ser su velocidad de escaneo.</p>
+	<h5>ClamAV</h5>
+	<p>Código abierto, completamente gratuito, instalable en sistemas menos comunes como Ubuntu.</p>
+	<p>No tiene ningún tipo de atención al cliente, poco intuitivo, no puede escanear USB.</p>
+	<h3>Precios</h3>
+	<p>Avast ofrece planes a partir de 40 euros anuales. Sin embargo, tambien se ofrece una versión gratuita mucho más limitada de este software.</p>
+  <p>ClamAV, por su parte es completamente gratuito y ofrece también un antivirus de buena calidad.</p>
+	<h3>CONCLUSIÓN</h3>
+	<p>ClamAV es un software menos cómodo que otros como Avast, pero si nos desempeñamos bien en sistemas operativos con Ubuntu 
+  puede ser una buena opción como antivirus. Avast es un antivirus de primera categoría, claro que los precios pueden echarnos hacia atrás en un
+  principio, pero nos puede brindar mucha tranquilidad.</p>
+</section>
+</section>
+<section id="avastppal">
+	<link rel="stylesheet" href="../styles/estilo2.css"/>
+	<h5 id="retorno">←VOLVER</a></h5>
+	<h2>Avast</h2>
+	<div class="container">
+	<ul class="slider">
+    	<li id="av1"><img src="../Avast/avast2.gif"/></li>
+    	<li id="av2"><img src="../Avast/avast3.gif"/></li>
+    	<li id="av3"><img src="../Avast/avast4.gif"/></li>
+    	<li id="av4"><img src="../Avast/avast5.gif"/></li>
+    	<li id="av5"><img src="../Avast/avast6.gif"/></li>
+  	</ul>
+  	</div>
+	<nav>
+    <ul class="menu">
+        <li><a href="#av1">1</a></li>
+        <li><a href="#av2">2</a></li>
+        <li><a href="#av3">3</a></li>
+        <li><a href="#av4">4</a></li>
+        <li><a href="#av5">5</a></li>
+ 	 </ul>
+	</nav>
+</section>
+<section id="clamppal">
+	<link rel="stylesheet" href="../styles/estilo2.css"/>
+	<h5 id="volver">←VOLVER</a></h5>
+	<h2>ClamAV</h2>
+	<div class="container">
+	<ul class="slider">
+    	<li id="cl1"><img src="../ClamAV/cl1.gif"/></li>
+    	<li id="cl2"><img src="../ClamAV/cl2.gif"/></li>
+    	<li id="cl3"><img src="../ClamAV/cl3.gif"/></li>
+    	<li id="cl4"><img src="../ClamAV/cl4.gif"/></li>
+  	</ul>
+  	</div>
+	<nav>
+    <ul class="menu">
+        <li><a href="#cl1">1</a></li>
+        <li><a href="#cl2">2</a></li>
+        <li><a href="#cl3">3</a></li>
+        <li><a href="#cl4">4</a></li>
+ 	 </ul>
+	</nav>
+	
+</section>
+</body>
+
+</html>
