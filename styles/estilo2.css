@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  position: relative;
+}
+nav {
+  width: 3%;
+  background: #ccc;
+  position: static;
+  height: fit-content;
+  float: inherit;
+}
+
+/* Style the list inside the menu */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+li a:hover {
+  background-color: #d1ede7;
+  color: black;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 90%;
+  background-color: #f1f1f1;
+ }
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+ul.slider {
+	position:absolute;
+	width: 70%;
+	height: 90%;
+	float: right;
+}
+ul.slider li {
+	position: absolute;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	transition: opacity
+	.5s;
+	background: #fff
+}
+ul.slider li img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ul.slider li:first-child{
+	opacity: 1;
+}
+ul.slider li:target {
+    opacity: 1; 
+ }
+ ul.menu{
+ 	position: relative;
+	height: 100%;
+   width: 100%;
+   left: 1100px;
+	top: 180px;
+	}
+	
+
+ul.menu.li{
+ 	position:static;
+}
+div.container{
+  height: 70%;
+  width: 90%;
+ 
+}
+h5{
+	text-decoration: underline;
+	max-width: 200px;
+}
+h2{
+max-width: 200px;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+/*@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
