@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<rss version="2.0">
+		<channel>
+			<title>Portfolio Fundamentos de Hardware</title>
+			<link>https://pacoaguil.github.io/PacoAguil/</link>
+			<description>Bienvenidos a mi página web, aquí os mostraré como instalar distintos programas 
+			y utilidades para vuestros equipos</description>
+			<item>
+				<title>Software Antivirus</title>
+				<link>https://pacoaguil.github.io/PacoAguil/#antivirus</link>
+				<description>En este artículo explicaremos qué es un antivirus, qué cosas reconocen como malware y dos ejemplos de instalación de este tipo de software 
+				en Sistemas Operativos diferentes.</description>
+				<language>es-Es</language>
+			</item>
+			<item>
+				<title>Paquetes ofimáticos</title>
+				<link>https://pacoaguil.github.io/PacoAguil/#ofi</link>
+				<description>Aquí explicaremos en qué consiste un paquete ofimático, las aplicaciones que contiene y cómo se instalan dos software de uso libre
+				como son LibreOffice y OpenOffice, cada uno en un Sistema Operativo.</description>
+				<copyright>Francisco Javier Aguilera Aguilera 2022</copyright>
+			</item>
+			<item>
+				<title>Aplicaciones portables</title>
+				<link>https://pacoaguil.github.io/PacoAguil/#portable</link>
+				<description>Aquí se desarrolla lo que son las aplicaciones portables, se las compara a sus versiones instalables y se muestra su uso práctico.
+				Sistema Operativo.</description>
+				<category>Información</category>
+			</item>
+				<item>
+				<title>Recuperación de datos</title>
+				<link>https://pacoaguil.github.io/PacoAguil/#recu</link>
+				<description>En este artículo se explicará en qué consiste un software de recuperación de datos, cómo trabaja técnicamente y dos ejemplos de este software,
+				instalados en varios sistemas operativos.</description>
+				<category>Información</category>
+			</item>
+		</channel>
+</rss>
