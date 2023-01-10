@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="es" xml:base="https://pacoaguil.github.io/PacoAguil/">
+  <id>https://pacoaguil.github.io/PacoAguil/</id>
+  <title>Portfolio Fundamentos de Hardware</title>
+  <updated>2022-01-10T12:30:00+01:00</updated>
+  <link rel="alternate" href="https://pacoaguil.github.io/PacoAguil/atom.xml"/>
+  <author>
+    <name>Francisco Javier Aguilera Aguilera</name>
+    <email>agagfr_aliesma20@iesmedinaazahara.es</email>
+  </author>
+  <category term="Programas y utilidades"/>
+  <contributor>
+    <name>Mi Mama</name>
+    <email>mama@gmail.com</email>
+    <uri>https://www.linkedin.com/in/mami</uri>
+  </contributor>
+  <logo>rss.png</logo>
+  <entry>
+    <id>
+    https://pacoaguil.github.io/PacoAguil/#antivirus
+    </id>
+    <title>Software Antivirus</title>
+    <update>2022-01-10T12:30:00+01:00</update>
+    <author>
+     <name>Francisco Javier Aguilera Aguilera</name>
+     <email>agagfr_aliesma20@iesmedinaazahara.es</email>
+    </author>
+    <summary>
+    En este articulo explicaremos que es un antivirus, que cosas reconocen como malware y 
+    dos ejemplos de instalacion de este tipo de software en Sistemas Operativos diferentes.
+    </summary>
+    <link rel="alternate" href="https://pacoaguil.github.io/PacoAguil/#antivirus"/>
+  </entry>
+  <entry>
+    <id>
+    https://pacoaguil.github.io/PacoAguil/#ofi
+    </id>
+    <title>Paquetes ofimáticos</title>
+    <update>2022-01-10T12:41:00+01:00</update>
+    <author>
+     <name>Francisco Javier Aguilera Aguilera</name>
+     <email>agagfr_aliesma20@iesmedinaazahara.es</email>
+    </author>
+    <summary>
+      Aqui explicaremos en que consiste un paquete ofimatico, las aplicaciones que contiene y
+     cómo se instalan dos software de uso libre como son LibreOffice 
+     y OpenOffice, cada uno en un Sistema Operativo.
+    </summary>
+    <link rel="alternate" href="https://pacoaguil.github.io/PacoAguil/#ofi"/>
+  </entry>
+  <entry>
+    <id>
+    https://pacoaguil.github.io/PacoAguil/#portable
+    </id>
+    <title>Apps portables</title>
+    <update>2022-01-10T12:47:00+01:00</update>
+    <author>
+     <name>Francisco Javier Aguilera Aguilera</name>
+     <email>agagfr_aliesma20@iesmedinaazahara.es</email>
+    </author>
+    <summary>
+      Aqui se desarrolla lo que son las aplicaciones portables, se las compara a sus versiones instalables y se muestra su uso practico.
+    </summary>
+    <link rel="alternate" href="https://pacoaguil.github.io/PacoAguil/#portable"/>
+  </entry>
+  <entry>
+    <id>
+    https://pacoaguil.github.io/PacoAguil/#recu
+    </id>
+    <title>Recuperación de datos</title>
+    <update>2022-01-10T12:50:00+01:00</update>
+    <author>
+     <name>Francisco Javier Aguilera Aguilera</name>
+     <email>agagfr_aliesma20@iesmedinaazahara.es</email>
+    </author>
+    <summary>
+      En este articulo se explicara en que consiste un software de recuperacion de datos, como trabaja tecnicamente y dos ejemplos de este software,
+      instalados en varios sistemas operativos.    </summary>
+    <link rel="alternate" href="https://pacoaguil.github.io/PacoAguil/#recu"/>
+  </entry>
+</feed>
