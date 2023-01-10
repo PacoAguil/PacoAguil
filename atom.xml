@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<feed xml:lang="es" xml:base="https://pacoaguil.github.io/PacoAguil/">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="https://pacoaguil.github.io/PacoAguil/">
   <id>https://pacoaguil.github.io/PacoAguil/</id>
   <title>Portfolio Fundamentos de Hardware</title>
   <updated>2022-01-10T12:30:00+01:00</updated>
@@ -16,11 +16,9 @@
   </contributor>
   <logo>rss.png</logo>
   <entry>
-    <id>
-    https://pacoaguil.github.io/PacoAguil/#antivirus
-    </id>
+    <id>https://pacoaguil.github.io/PacoAguil/#antivirus</id>
     <title>Software Antivirus</title>
-    <update>2022-01-10T12:30:00+01:00</update>
+    <updated>2022-01-10T12:30:00+01:00</updated>
     <author>
      <name>Francisco Javier Aguilera Aguilera</name>
      <email>agagfr_aliesma20@iesmedinaazahara.es</email>
@@ -32,28 +30,24 @@
     <link rel="alternate" href="https://pacoaguil.github.io/PacoAguil/#antivirus"/>
   </entry>
   <entry>
-    <id>
-    https://pacoaguil.github.io/PacoAguil/#ofi
-    </id>
-    <title>Paquetes ofimáticos</title>
-    <update>2022-01-10T12:41:00+01:00</update>
+    <id>https://pacoaguil.github.io/PacoAguil/#ofi</id>
+    <title>Paquetes ofimÃ¡ticos</title>
+    <updated>2022-01-10T12:41:00+01:00</updated>
     <author>
      <name>Francisco Javier Aguilera Aguilera</name>
      <email>agagfr_aliesma20@iesmedinaazahara.es</email>
     </author>
     <summary>
       Aqui explicaremos en que consiste un paquete ofimatico, las aplicaciones que contiene y
-     cómo se instalan dos software de uso libre como son LibreOffice 
+     cÃ³mo se instalan dos software de uso libre como son LibreOffice 
      y OpenOffice, cada uno en un Sistema Operativo.
     </summary>
     <link rel="alternate" href="https://pacoaguil.github.io/PacoAguil/#ofi"/>
   </entry>
   <entry>
-    <id>
-    https://pacoaguil.github.io/PacoAguil/#portable
-    </id>
+    <id>https://pacoaguil.github.io/PacoAguil/#portable</id>
     <title>Apps portables</title>
-    <update>2022-01-10T12:47:00+01:00</update>
+    <updated>2022-01-10T12:47:00+01:00</updated>
     <author>
      <name>Francisco Javier Aguilera Aguilera</name>
      <email>agagfr_aliesma20@iesmedinaazahara.es</email>
@@ -64,11 +58,9 @@
     <link rel="alternate" href="https://pacoaguil.github.io/PacoAguil/#portable"/>
   </entry>
   <entry>
-    <id>
-    https://pacoaguil.github.io/PacoAguil/#recu
-    </id>
-    <title>Recuperación de datos</title>
-    <update>2022-01-10T12:50:00+01:00</update>
+    <id>https://pacoaguil.github.io/PacoAguil/#recu</id>
+    <title>RecuperaciÃ³n de datos</title>
+    <updated>2022-01-10T12:50:00+01:00</updated>
     <author>
      <name>Francisco Javier Aguilera Aguilera</name>
      <email>agagfr_aliesma20@iesmedinaazahara.es</email>
