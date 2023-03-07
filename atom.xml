@@ -16,7 +16,7 @@
   </contributor>
   <logo>rss.png</logo>
   <entry>
-    <id>https://pacoaguil.github.io/PacoAguil/#antivirus</id>
+    <id>https://pacoaguil.github.io/PacoAguil/pages/antivirus.html</id>
     <title>Software Antivirus</title>
     <updated>2022-01-10T12:30:00+01:00</updated>
     <author>
@@ -30,7 +30,7 @@
     <link rel="alternate" href="https://pacoaguil.github.io/PacoAguil/#antivirus"/>
   </entry>
   <entry>
-    <id>https://pacoaguil.github.io/PacoAguil/#ofi</id>
+    <id>https://pacoaguil.github.io/PacoAguil/pages/ofimatica.html</id>
     <title>Paquetes ofimÃ¡ticos</title>
     <updated>2022-01-10T12:41:00+01:00</updated>
     <author>
@@ -45,7 +45,7 @@
     <link rel="alternate" href="https://pacoaguil.github.io/PacoAguil/#ofi"/>
   </entry>
   <entry>
-    <id>https://pacoaguil.github.io/PacoAguil/#portable</id>
+    <id>https://pacoaguil.github.io/PacoAguil/pages/portable.html</id>
     <title>Apps portables</title>
     <updated>2022-01-10T12:47:00+01:00</updated>
     <author>
@@ -58,7 +58,7 @@
     <link rel="alternate" href="https://pacoaguil.github.io/PacoAguil/#portable"/>
   </entry>
   <entry>
-    <id>https://pacoaguil.github.io/PacoAguil/#recu</id>
+    <id>https://pacoaguil.github.io/PacoAguil/pages/recu.html</id>
     <title>RecuperaciÃ³n de datos</title>
     <updated>2022-01-10T12:50:00+01:00</updated>
     <author>
