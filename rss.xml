@@ -7,28 +7,28 @@
 			y utilidades para vuestros equipos</description>
 			<item>
 				<title>Software Antivirus</title>
-				<link>https://pacoaguil.github.io/PacoAguil/#antivirus</link>
+				<link>https://pacoaguil.github.io/PacoAguil/pages/antivirus.html</link>
 				<description>En este artículo explicaremos qué es un antivirus, qué cosas reconocen como malware y dos ejemplos de instalación de este tipo de software 
 				en Sistemas Operativos diferentes.</description>
 				<language>es-Es</language>
 			</item>
 			<item>
 				<title>Paquetes ofimáticos</title>
-				<link>https://pacoaguil.github.io/PacoAguil/#ofi</link>
+				<link>https://pacoaguil.github.io/PacoAguil/pages/ofimatica.html</link>
 				<description>Aquí explicaremos en qué consiste un paquete ofimático, las aplicaciones que contiene y cómo se instalan dos software de uso libre
 				como son LibreOffice y OpenOffice, cada uno en un Sistema Operativo.</description>
 				<copyright>Francisco Javier Aguilera Aguilera 2022</copyright>
 			</item>
 			<item>
 				<title>Aplicaciones portables</title>
-				<link>https://pacoaguil.github.io/PacoAguil/#portable</link>
+				<link>https://pacoaguil.github.io/PacoAguil/pages/portable.html</link>
 				<description>Aquí se desarrolla lo que son las aplicaciones portables, se las compara a sus versiones instalables y se muestra su uso práctico.
 				Sistema Operativo.</description>
 				<category>Información</category>
 			</item>
 				<item>
 				<title>Recuperación de datos</title>
-				<link>https://pacoaguil.github.io/PacoAguil/#recu</link>
+				<link>https://pacoaguil.github.io/PacoAguil/pages/recu.html</link>
 				<description>En este artículo se explicará en qué consiste un software de recuperación de datos, cómo trabaja técnicamente y dos ejemplos de este software,
 				instalados en varios sistemas operativos.</description>
 				<category>Información</category>
