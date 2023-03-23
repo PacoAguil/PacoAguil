@@ -37,7 +37,7 @@ li {
 }
 li a {
   display: block;
-  color: white;;
+  color: white;
   padding: 10px 7px;
   text-decoration: none;
 }
@@ -177,6 +177,13 @@ iframe {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     width: 11%;
+}
+video {
+    border-radius: 5px;
+    vertical-align: top;
+    margin-bottom: 20px;
+    height: 452px;
+    width: auto;
 }
 .container:hover .image {
   opacity: 0.3;
