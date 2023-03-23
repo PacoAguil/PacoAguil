@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="stylesheet" href="../styles/estilo.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("section").hide();
+  $("#Ppal1").show();
+  $("#Ppal2").show();
+  $("#Ppal3").show();
+  $("#avastppal").show()
+  })
+</script>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<section id="Ppal1">
+   <h1>Restauración de una imagen de forma local</h1>
+    <p>Clonezilla es una herramienta de clonación de discos y particiones que te permite crear una copia exacta de una imagen del sistema operativo, programas y archivos de una computadora. Esto es útil en caso de que necesites restaurar tu sistema en caso de un fallo crítico o para replicar el mismo sistema en múltiples equipos.
+    Para restaurar una imagen con Clonezilla, primero debemos crear una imagen del equipo que deseas clonar. Esto se puede hacer en un dispositivo de almacenamiento externo como un disco duro externo o una unidad USB.
+    </p>
+    <p>Lo primero que haremos en este tutorial será crear este USB usando el programa BalenaEtcher para Ubuntu, aunque hay otras aplicaciones para realizar esta tarea</p>
+</section>
+<video class='video-stylish' controls>
+  <source src='../videos/usb.mp4' type='video/mp4'>
+</video>
+<section id="Ppal2">
+    <h1>Clonación de la imagen</h1>
+    <p>Una vez que tienes una imagen del ordenador, puedes usar Clonezilla para restaurar en otro ordenador o en el mismo ordenador después de haberla formateado o experimentado un fallo. La restauración de la imagen te permitirá tener una copia exacta de la configuración y el software que tenía tu sistema en el momento en que se creó la imagen.</p>
+    <p>En general, la restauración de una imagen con Clonezilla es un proceso bastante sencillo que implica seleccionar la imagen que deseas restaurar, elegir el disco o la partición en la que deseas restaurar y luego seguir las instrucciones de Clonezilla para completar el proceso de restauración.</p>
+    <p>Clonezilla ofrece dos tipos de restauración: local y remota. Cada tipo de restauración tiene sus propias ventajas y desventajas. La restauración local es más rápida y no depende de una conexión de red estable, pero requiere que la imagen esté físicamente presente en el dispositivo de almacenamiento local. La restauración remota, por otro lado, puede ser más conveniente para restaurar varias ordenadores en una red, pero requiere una conexión de red estable y una configuración adecuada para acceder al servidor remoto.</p>
+    <p>-Restauración local: La restauración local implica la restauración de una imagen desde un medio de almacenamiento local, como un disco duro externo, una unidad flash USB o un CD/DVD. Este es el método más comúnmente utilizado para restaurar una imagen y se utiliza cuando la imagen y el equipo en el que se va a restaurar se encuentran en la misma ubicación física. En estos dos vídeos explicaremos como usar este programa de forma sencilla.</p>
+</section>
+<video class='video-stylish' controls>
+  <source src='../videos/clone1.mp4' type='video/mp4'>
+</video>
+<section id="Ppal3">
+  <h1>Restauración de la imagen</h1>
+</section>
+<video class='video-stylish' controls>
+  <source src='../videos/clone2.mp4' type='video/mp4'>
+</video>
+</body>
+</html>

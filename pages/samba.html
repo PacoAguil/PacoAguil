@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="stylesheet" href="../styles/estilo.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("section").hide();
+  $("#Ppal1").show();
+  $("#Ppal2").show();
+  $("#Ppal3").show();
+  $("#avastppal").show()
+  })
+</script>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<section id="Ppal1">
+   <h1>Restauración de una imagen de forma remota</h1>
+    <p>Anteriormente, ya hemos usado Clonezilla para restaurar una imagen de forma local. Sin embargo, también tenemos la opción de hacerlo de forma remota haciendo uso de servidores comom ssh o samba server. Hoy aprenderemos a usar Clonezilla usando estos servidores</p>
+    <p>Lo primero que haremos en este tutorial será crear este USB usando el programa BalenaEtcher para Ubuntu, al igual que hicimos en el anterior tutorial</p>
+</section>
+<video class='video-stylish' controls>
+  <source src='../videos/usb.mp4' type='video/mp4'>
+</video>
+<section id="Ppal2">
+    <h1>Clonación de la imagen</h1>
+    <p>-Restauración remota: La restauración remota implica la restauración de una imagen desde un servidor remoto utilizando una conexión de red. Esto puede ser útil si necesitas restaurar varios ordenadores en una red o si necesitas restaurar una imagen en una ubicación remota. Para la restauración remota, debes configurar Clonezilla para acceder al servidor remoto y seleccionar la imagen que deseas restaurar. Es importante tener una conexión estable y de alta velocidad para garantizar que la imagen se restaure correctamente.</p>
+</section>
+<video class='video-stylish' controls>
+  <source src='../videos/samba1.mp4' type='video/mp4'>
+</video>
+<video class='video-stylish' controls>
+  <source src='../videos/samba2.mp4' type='video/mp4'>
+</video>
+</body>
+</html>
