@@ -12,42 +12,39 @@ type="application/rss.xml" title="RSS 2.0">
 $(document).ready(function(){
   $("article").hide()
   $("#menuantivirus").click(function(){
-    $("article").hide()
-    $("p").hide()
-    $("#antivirus").show();
+    $("article").hide();
+    $("p").hide();
+    $("#antivirus").show()
   });
   $("#menuofimati").click(function(){
-    $("article").hide()
-    $("p").hide()
-    $("#ofi").show();
+    $("article").hide();
+    $("p").hide();
+    $("#ofi").show()
   });
   $("#menuportable").click(function(){
-    $("article").hide()
-    $("p").hide()
-    $("#portable").show();
-  });
+    $("article").hide();
+    $("p").hide();
+    $("#portable").show()
+   });
   $("#menurecu").click(function(){
-    $("article").hide()
-    $("p").hide()
-    $("#recu").show();
+    $("article").hide();
+    $("p").hide();
+    $("#recu").show()
   });
-    $("#avast").click(function(){
-    	$("article").hide()
-    	$("p").hide()
-   	 $("#antivirus").hide()
-   	 $("#avast").show();
-});
+  $("#menuclon").click(function(){
+    $("article").hide();
+    $("p").hide();
+    $("#clon").show()
+  });
+  $("#menusamba").click(function(){
+    $("article").hide();
+    $("p").hide();
+   $("#samba").show()
+  })
 })
 </script>
 </head>
 <body>
-
-<!--h2>Ejemplo de actividad final</h2-->
-<!--p> En este ejemplo, hemos creado una cabecera,
- dos columnas o cajas y un pie de página.</p>
-<!--p>Debes probar a hacer cambios y observar 
-los resultados antes de intentar crear tu propia página</p-->
-
 <header>
   <h3 id="menuppal"><a href="index.html">Portfolio Fundamentos de Hardware</a></h3>
 </header>
@@ -59,19 +56,27 @@ los resultados antes de intentar crear tu propia página</p-->
       <li id="menuofimati"><a href="#ofi">Paquetes Ofimáticos</a></li>
       <li id="menuportable"><a href="#portable">Aplicaciones Portables</a></li>
       <li id="menurecu"><a href="#recu">Recuperación de datos</a></li>
+      <li id="menuclon"><a href="#clon">Restauración local</a></li>
+      <li id="menusamba"><a href="#samba">Restauración remota con Samba</a></li>
     </ul>
   </nav>
   <article id="antivirus">
     <iframe   border:none src="pages/antivirus.html"></iframe>
     </article>
   <article id="ofi">
-    <iframe   style="width:100%; border:none"src="pages/ofimatica.html"></iframe>
+    <iframe   style="width:100%; border:none" src="pages/ofimatica.html"></iframe>
   </article>
   <article id="portable">
-    <iframe style="width:100%; border:none"src="pages/portable.html"></iframe>
+    <iframe style="width:100%; border:none" src="pages/portable.html"></iframe>
   </article>
   <article id="recu">
-    <iframe style="width:100%; border:none"src="pages/recu.html"></iframe>
+    <iframe style="width:100%; border:none" src="pages/recu.html"></iframe>
+  </article>
+  <article id="clon">
+    <iframe style="width:100%; border:none" src="pages/clonezilla.html"></iframe>
+  </article>
+  <article id="samba">
+    <iframe style="width:100%; border:none" src="pages/samba.html"></iframe>
   </article>
   <p class="intro">Bienvenidos a mi página web, aquí os 
   mostraré como instalar distintos programas y utilidades
